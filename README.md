@@ -1,7 +1,7 @@
 # Twitter-Sentimental-Analysis
+It is an automatic process to determining whether a text segment contains objective or opinionated content, and it can furthermore determine the text’s sentiment polarity. The goal of Twitter sentiment classification is to automatically determine whether a tweet’s sentiment polarity is negative or positive.
 
-
-# Set Up
+## Set Up
 1. You need to have Python 3 installed on your system.
 2. This bot uses tweepy module.You can install tweepy by using pip. To install tweepy, use this command :
 ```cmd
@@ -30,5 +30,14 @@ print (user.name)
 ```
 This should return the name of your Twitter account in the console.
 
-# Run
+## Run
 analysis_neg_pos.py
+
+## Conclusion
+The analysis of Twitter data is being done in different points of view to mine the opinion or sentiment. Our proposed approach
+classify the tweets as Positive and Negative tweets which further helps in sentiment analysis and uses that sentiment analysis
+for further decision making. For our prototype, Twitter API is utilized to gather data in real-time. The prototype back-end tests
+on retrieving and processing the API data indicate that it is successful in gathering large amounts of data from popular search
+terms in real-time. We will use various machine learning algorithms to conduct sentiment analysis using the extracted features.
+However, just relying on individual models did not give a high accuracy so we pick the top few models to generate a model. 
+
