@@ -34,10 +34,9 @@ This should return the name of your Twitter account in the console.
 analysis_neg_pos.py
 
 ## Conclusion
-The analysis of Twitter data is being done in different points of view to mine the opinion or sentiment. Our proposed approach
+The analysis of Twitter data is being done in different points of view to mine the opinion or sentiment. Above proposed approach
 classify the tweets as Positive and Negative tweets which further helps in sentiment analysis and uses that sentiment analysis
-for further decision making. For our prototype, Twitter API is utilized to gather data in real-time. The prototype back-end tests
+for further decision making. For this prototype, Twitter API is utilized to gather data in real-time. The prototype back-end tests
 on retrieving and processing the API data indicate that it is successful in gathering large amounts of data from popular search
-terms in real-time. We will use various machine learning algorithms to conduct sentiment analysis using the extracted features.
-However, just relying on individual models did not give a high accuracy so we pick the top few models to generate a model. 
+terms in real-time. However, just relying on individual models did not give a high accuracy consequently pick the top few models to generate a model. 
 
